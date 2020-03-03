@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/dennyvim.github.io/app/static/css/main.2e77e795.chunk.css",
+    "main.js": "/dennyvim.github.io/app/static/js/main.6dba4ec2.chunk.js",
+    "main.js.map": "/dennyvim.github.io/app/static/js/main.6dba4ec2.chunk.js.map",
+    "runtime-main.js": "/dennyvim.github.io/app/static/js/runtime-main.e8fb8432.js",
+    "runtime-main.js.map": "/dennyvim.github.io/app/static/js/runtime-main.e8fb8432.js.map",
+    "static/js/2.cc510965.chunk.js": "/dennyvim.github.io/app/static/js/2.cc510965.chunk.js",
+    "static/js/2.cc510965.chunk.js.map": "/dennyvim.github.io/app/static/js/2.cc510965.chunk.js.map",
+    "index.html": "/dennyvim.github.io/app/index.html",
+    "precache-manifest.9c37887ef59ccc7fc8167fc87fef215e.js": "/dennyvim.github.io/app/precache-manifest.9c37887ef59ccc7fc8167fc87fef215e.js",
+    "service-worker.js": "/dennyvim.github.io/app/service-worker.js",
+    "static/css/main.2e77e795.chunk.css.map": "/dennyvim.github.io/app/static/css/main.2e77e795.chunk.css.map",
+    "static/js/2.cc510965.chunk.js.LICENSE.txt": "/dennyvim.github.io/app/static/js/2.cc510965.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e8fb8432.js",
+    "static/js/2.cc510965.chunk.js",
+    "static/css/main.2e77e795.chunk.css",
+    "static/js/main.6dba4ec2.chunk.js"
+  ]
+}
