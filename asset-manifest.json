@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/dennyvim.github.io/app/static/css/main.2e77e795.chunk.css",
-    "main.js": "/dennyvim.github.io/app/static/js/main.6dba4ec2.chunk.js",
-    "main.js.map": "/dennyvim.github.io/app/static/js/main.6dba4ec2.chunk.js.map",
-    "runtime-main.js": "/dennyvim.github.io/app/static/js/runtime-main.e8fb8432.js",
-    "runtime-main.js.map": "/dennyvim.github.io/app/static/js/runtime-main.e8fb8432.js.map",
-    "static/js/2.cc510965.chunk.js": "/dennyvim.github.io/app/static/js/2.cc510965.chunk.js",
-    "static/js/2.cc510965.chunk.js.map": "/dennyvim.github.io/app/static/js/2.cc510965.chunk.js.map",
-    "index.html": "/dennyvim.github.io/app/index.html",
-    "precache-manifest.9c37887ef59ccc7fc8167fc87fef215e.js": "/dennyvim.github.io/app/precache-manifest.9c37887ef59ccc7fc8167fc87fef215e.js",
-    "service-worker.js": "/dennyvim.github.io/app/service-worker.js",
-    "static/css/main.2e77e795.chunk.css.map": "/dennyvim.github.io/app/static/css/main.2e77e795.chunk.css.map",
-    "static/js/2.cc510965.chunk.js.LICENSE.txt": "/dennyvim.github.io/app/static/js/2.cc510965.chunk.js.LICENSE.txt"
+    "main.css": "/app/static/css/main.260472c3.chunk.css",
+    "main.js": "/app/static/js/main.8502c5ec.chunk.js",
+    "main.js.map": "/app/static/js/main.8502c5ec.chunk.js.map",
+    "runtime-main.js": "/app/static/js/runtime-main.893bbd7c.js",
+    "runtime-main.js.map": "/app/static/js/runtime-main.893bbd7c.js.map",
+    "static/js/2.7702a6c6.chunk.js": "/app/static/js/2.7702a6c6.chunk.js",
+    "static/js/2.7702a6c6.chunk.js.map": "/app/static/js/2.7702a6c6.chunk.js.map",
+    "index.html": "/app/index.html",
+    "precache-manifest.69c6ae17a014922742b916fa321e9e72.js": "/app/precache-manifest.69c6ae17a014922742b916fa321e9e72.js",
+    "service-worker.js": "/app/service-worker.js",
+    "static/css/main.260472c3.chunk.css.map": "/app/static/css/main.260472c3.chunk.css.map",
+    "static/js/2.7702a6c6.chunk.js.LICENSE.txt": "/app/static/js/2.7702a6c6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e8fb8432.js",
-    "static/js/2.cc510965.chunk.js",
-    "static/css/main.2e77e795.chunk.css",
-    "static/js/main.6dba4ec2.chunk.js"
+    "static/js/runtime-main.893bbd7c.js",
+    "static/js/2.7702a6c6.chunk.js",
+    "static/css/main.260472c3.chunk.css",
+    "static/js/main.8502c5ec.chunk.js"
   ]
 }
