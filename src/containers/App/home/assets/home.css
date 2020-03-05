@@ -1,0 +1,327 @@
+body{
+    margin:0px;
+    border:0px;
+    padding: 0px; 
+}
+section{
+    width: 410px;
+    height: 820px;
+    background: gray;
+    text-align: center;
+    position: relative;
+}
+
+.titulo{
+    position: absolute;
+    width: 410px;
+    height:30px ;
+    top:30px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imgclassic{
+    position:absolute;
+    width: 350px;
+    height: 550px;
+    right: 30px;
+    left: 30px;
+    top: 140px;
+    background:  #ADF3FF;
+}
+.btinicio{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 450px;
+    left: 175px;
+    border-radius: 50%;
+}
+.txtinicio{
+    position: absolute;
+    font-size: 35px;
+    font-style: Arial;
+    top: 200px;
+    left: 125px;
+}
+.txttimed{
+    position: absolute;
+    font-size: 35px;
+    font-style: Arial;
+    top: 200px;
+    right: 0px;
+    left: 4px;
+}
+
+.menu{
+    position: absolute;
+    width: 410px;
+    height: 70px;
+    background: #61C3FF;
+    top:749px;
+}
+.home{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 10px;
+    left: 184px;
+}
+.rank{
+    opacity: 0.2;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 11px;
+    left: 66px;
+}
+.premio{
+    opacity: 0.2;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 10px;
+    left: 298px;
+}
+.arrowclasico{
+    height: 30px;
+    position: relative;
+    top: 371px;
+    left: 149px;
+    width: 40px;
+}
+.arrowtimed{
+    height: 30px;
+    position: relative;
+    top: 371px;
+    width: 40px;
+    left: -149px;
+}
+
+/*Pausa*/
+
+.juego{
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    width: 350px;
+    height: 350px;
+}
+.Tarjeta{
+    border-radius: 25%;
+    width: 175px;
+    height: 175px;
+}
+.Estilo1{
+    background:#ADF3FF;
+}
+.Estilo2{
+    background: white;
+}
+.cerrarjuego{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 669px;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+
+}
+
+/*Pausa*/
+.txtclassic{
+    position: absolute;
+    width: 410px;
+    height:30px ;
+    top: 100px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.level{
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    background: white;
+    color: gray;
+    font-size: 40px;
+}
+#level1classic{
+    left: 31px;
+    top: 239px;
+}
+#level2classic{
+    left: 213px;
+    top:239px;
+}
+#level3classic{
+    left: 31px;
+    top: 446px;
+}
+#level4classic{
+    left:213px ;
+    top: 446px;
+}
+#level1timed{
+    left: 31px;
+    top: 239px;
+}
+#level2timed{
+    left: 213px;
+    top:239px;
+}
+#level3timed{
+    left: 31px;
+    top: 446px; 
+}
+#level4timed{
+    left:213px ;
+    top: 446px;
+}
+
+.crono_timed1{
+    font-size: 40px;
+    font-style: Arial;
+    position: absolute;
+    top: 104px;
+    left: 162px;
+}
+.juego2{
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    left: 57px;
+    top: 200px;
+    
+}
+.tarjeta2{
+    width: 150px;
+    height: 150px;
+    border-radius: 25%;
+}
+.juego3{
+    position: absolute;
+    width: 270px;
+    height: 480px;
+    left: 82px;
+    top: 188px;
+}
+.tarjeta3{
+    width: 120px;
+    height: 120px;
+    border-radius: 25%;
+}
+.juego4{
+    position: absolute;
+    width: 350px;
+    height: 466.4px;
+    left: 29px;
+    top: 206px;
+}
+.tarjeta4{
+    width: 116.6px;
+    height: 116.6px;
+    border-radius: 25%;
+}
+#imginstrucciones{
+    position: absolute;
+    width: 380px;
+    height: 642px;
+    left: 15px;
+    top: 78px;
+    text-align: center;
+    background: white;
+}
+.credito{
+    position: absolute;
+    width: 380px;
+    background:white;
+    height: 212px;
+    left: 15px;
+}
+#credito1{ 
+    top: 73px;
+}
+#credito2{
+top: 296px;
+}
+#credito3{
+top: 520px;
+}
+.imgcredito{
+    opacity: 0px;
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    border-radius: 25%;
+    left: 29px;
+    top: 46px;
+}
+.txtcredito{
+    position: absolute;
+    left: 160px;
+    width: 200px;
+    top: 33px;
+    height:100px;
+    text-align: center;
+    border: 2px solid black;
+    padding-top: 18px;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 267px;
+}
+#botonprovisional{
+    width: 30px;
+    height: 30px;
+    background: purple;
+    position: absolute;
+    top: 724px;
+    left: 325px;
+}
+#titulodone{
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:blue;
+    position: absolute;
+    width: 150px;
+    height: 45px;
+    right: 117px;
+}
+#txttiempo{
+    position: absolute;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    top: 144px;
+    right: 197px;
+}
+#tiempodone{
+    position: absolute;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    top:136px;
+    right: 122px;
+}
+#continuar{
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    background: white;
+    color: black;
+    font-size: 20px;
+    align-items: center;
+    right: 25px;
+    top: 253px;
+}
+
+
+
+
+
