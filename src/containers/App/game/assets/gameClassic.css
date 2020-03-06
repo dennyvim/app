@@ -1,0 +1,26 @@
+.level{
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    background: white;
+    color: gray;
+    font-size: 40px;
+}
+
+#level1classic{
+    left: 31px;
+    top: 239px;
+}
+#level2classic{
+    left: 213px;
+    top:239px;
+}
+#level3classic{
+    left: 31px;
+    top: 446px;
+}
+#level4classic{
+    left:213px ;
+    top: 446px;
+}
