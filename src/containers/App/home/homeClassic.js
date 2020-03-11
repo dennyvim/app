@@ -14,7 +14,7 @@ class HomeClassic extends React.Component{
                 <h1 className="titulo">REMEMBER HER</h1>
                 <div className="imgclassic" />
                 <h1 className="txtinicio">CLASSIC</h1>
-                <Link to="/GameClassic"><img src="http://icons.iconarchive.com/icons/hopstarter/button/256/Button-Play-icon.png" alt="a"className="btinicio"/></Link>
+                <Link to='/GameClassic'><img src="http://icons.iconarchive.com/icons/hopstarter/button/256/Button-Play-icon.png" alt="a"className="btinicio"/></Link>
                 <Footer/>
                 <Link to='/Timed'><img src="http://icons.iconarchive.com/icons/icons8/ios7/512/Arrows-Right-icon.png" alt="a" className="arrowclasico"/></Link>
             </section>

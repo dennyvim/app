@@ -6,6 +6,7 @@ import GameClassic from './containers/App/game/gameClassic.js'
 import GameTimed from './containers/App/game/gameTimed.js'
 import Credits from './containers/App/configuration/credits.js';
 import Instructions from './containers/App/configuration/instructions.js';
+import LevelOne from './containers/App/game/levels/levelOne.js';
 
 const Router = () => {
     return(
@@ -17,6 +18,7 @@ const Router = () => {
                 <Route path="/GameTimed" component = {GameTimed}/>
                 <Route path="/Credits" component = {Credits}/>
                 <Route path="/Instructions" component = {Instructions}/>
+                <Route path="/Level" component = {LevelOne}/>
             </Switch>
         </BrowserRouter>
         
