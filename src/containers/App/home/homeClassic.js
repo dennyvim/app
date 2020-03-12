@@ -3,7 +3,6 @@ import './assets/home.css'
 import Footer from '../../../components/footer/footer.js';
 import Header from '../../../components/header/header.js';
 import { Link } from 'react-router-dom';
-import Splash from '../../../components/splash/splash';
 import empezar from './assets/empezar.png'
 import configuracion from './assets/configuracion.png'
 import titulo from './assets/titulo.png'
