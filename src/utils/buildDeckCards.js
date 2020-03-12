@@ -2,6 +2,7 @@ import shuffle from 'lodash.shuffle';
 import CardClasses from './cardClasses.js'
 
 export default (NUMBER_OF_CARDS) => {
+
     const cardClasses = CardClasses();
     let cards = [];
 
@@ -13,7 +14,6 @@ export default (NUMBER_OF_CARDS) => {
         }
         cards.push(card);
         cards.push({...card})
-
     }
     return shuffle(cards);
 };

@@ -4,6 +4,7 @@ import './assets/board.css'
 
 
 class Board extends React.Component{
+    
     render(){
         return(
             <div className="board">
@@ -11,7 +12,6 @@ class Board extends React.Component{
                     this.props.deck
                     .map((card, index) =>{
                         const isBeingCompared = this.props.selectedCouple.indexOf(card) > -1;
-
 
                         return <Card 
                         key={index}

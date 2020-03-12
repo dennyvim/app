@@ -2,15 +2,16 @@ import React from 'react';
 import Footer from '../../../../components/footer/footer.js';
 import Board from '../../../../components/board/board';
 import buildDeckCards from '../../../../utils/buildDeckCards.js'
-
-    const getInitialState = () => {
-        const deck = buildDeckCards(8);
+import checkVictory from '../../../../utils/checkVictory.js'
+const getInitialState = () => {
+        const deck = buildDeckCards(4);
         return{
             deck,
             selectedCouple: [],
             isCompared: false
         };
     }
+
 class LevelOne extends React.Component{
     constructor(props){
         super(props)
@@ -23,8 +24,8 @@ class LevelOne extends React.Component{
                 deck={this.state.deck} 
                 selectedCouple={this.state.selectedCouple}
                 selectCard={(card) => this.selectCard(card)}
-                ></Board>
-                <Footer></Footer>
+                />
+                <Footer/>
             </div>
         );
     }
@@ -35,7 +36,6 @@ class LevelOne extends React.Component{
             this.state.selectedCouple.indexOf(card) > -1 ||
             card.guessed
         ){
-        
             return;
         }
 
@@ -68,7 +68,7 @@ class LevelOne extends React.Component{
                     return {...card, guessed: true}                    
                 })
             }
-            this.checkVictory(deck);
+            checkVictory(deck);
             this.setState({
                 selectedCouple: [],
                 deck,
@@ -79,12 +79,5 @@ class LevelOne extends React.Component{
 
     }
 
-    checkVictory(deck){
-        if(
-            deck.filter((card) => !card.guessed).length === 0
-        ){
-            alert('you win')
-        }
-    }
 }
 export default LevelOne;

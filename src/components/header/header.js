@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => (
 <aside id="modal" className="modal">
-    <a href='/' ><img src="http://icons.iconarchive.com/icons/hopstarter/button/256/Button-Close-icon.png" alt="" className="close-modal"/></a>
+    <a href='/Classic' ><img src="http://icons.iconarchive.com/icons/hopstarter/button/256/Button-Close-icon.png" alt="" className="close-modal"/></a>
     <div className="content-modal">
         <header>
             <h2>Configuraciones</h2>            
