@@ -4,21 +4,23 @@ import Footer from '../../../components/footer/footer.js';
 import Header from '../../../components/header/header.js';
 import { Link } from 'react-router-dom';
 import Splash from '../../../components/splash/splash';
+import empezar from './assets/empezar.png'
+import configuracion from './assets/configuracion.png'
+import titulo from './assets/titulo.png'
 
 class HomeClassic extends React.Component{
     render(){
             return(
                 <section id="seccion_1" className="inicio">
-                    <a href="#modal"><img src="http://icons.iconarchive.com/icons/pixelkit/gentle-edges/128/Settings-icon.png" alt="a"className="btconfig"/></a>
+                    <a href="#modal"><img src={configuracion} alt="configuracion"className="btconfig"/></a>
                     <Header/>
-                    <h1 className="titulo">REMEMBER HER</h1>
-                    <div className="imgclassic" />
+                    <img src={titulo} alt="titulo" className="titulo"></img>
+                    <div className="imgclassic"/>
                     <h1 className="txtinicio">CLASSIC</h1>
-                    <Link to='/GameClassic'><img src="http://icons.iconarchive.com/icons/hopstarter/button/256/Button-Play-icon.png" alt="a"className="btinicio"/></Link>
+                    <Link to='/GameClassic'><img src={empezar} alt="empezar"className="btinicio"/></Link>
                     <Footer/>
                 </section>
             );
         }
 }
-
 export default HomeClassic;

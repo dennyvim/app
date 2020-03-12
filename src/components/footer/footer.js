@@ -1,12 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './assets/footer.css'
+import home from './assets/home.png'
+import rank from './assets/rank.png'
+import premio from './assets/premio.png'
 const Footer = () => (
 
     <div className="menu">
-        <Link to="/Classic"><img src="http://icons.iconarchive.com/icons/icons8/ios7/512/Very-Basic-Home-icon.png" alt="" className="home"/></Link>
-        <Link to="/Classic"><img src="http://icons.iconarchive.com/icons/icons8/ios7/512/Messaging-Star-icon.png" alt="" className="rank"/></Link>
-        <Link to='/Classic'><img src="http://icons.iconarchive.com/icons/icons8/ios7/512/Military-Military-Medal-icon.png" alt="" className="premio"/></Link>
+        <Link to="/Classic"><img src={home} alt="home" className="home"/></Link>
+        <Link to="/Classic"><img src={rank} alt="rank" className="rank"/></Link>
+        <Link to='/Classic'><img src={premio} alt="premio" className="premio"/></Link>
     </div>
 
 )
