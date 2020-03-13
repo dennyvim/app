@@ -1,0 +1,17 @@
+#modal{
+   background: rgba(0,0,0,0.75);;
+   width: 420px;
+   height: 820px;
+   position: relative;
+}
+#modalcontent{
+    width: 380px;
+    background: #a3afeb;
+    z-index: 99999999;
+    position: absolute;
+    top: 150px;
+    right: 25px;
+    height: 200px;
+    
+
+}
