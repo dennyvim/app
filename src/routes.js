@@ -18,13 +18,11 @@ const Router = () => {
                 <Route exact path="/" component = {Home}/>
                 <Route path="/Classic" component = {HomeClassic}/>
                 <Route path="/GameClassic" component = {GameClassic}/>
-                <Route path="/GameTimed" component = {GameTimed}/>
                 <Route path="/Credits" component = {Credits}/>
                 <Route path="/Instructions" component = {Instructions}/>
                 <Route path="/LevelOne" component = {LevelOne}/>
                 <Route path="/LevelTwo" component = {LevelTwo}/>
                 <Route path="/LevelThree" component = {LevelThree}/>
-                <Route path="/LevelFour" component = {LevelFour}/>
             </Switch>
         </BrowserRouter>
         

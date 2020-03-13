@@ -3,6 +3,7 @@ import Footer from '../../../../components/footer/footer.js';
 import Board from '../../../../components/board/board';
 import buildDeckCards from '../../../../utils/buildDeckCards.js'
 import checkVictory from '../../../../utils/checkVictory.js'
+import './assets/levels.css'
 const getInitialState = () => {
         const deck = buildDeckCards(4);
         return{
@@ -19,7 +20,7 @@ class LevelOne extends React.Component{
     }
     render(){
         return(
-            <div>
+            <div className="bodylevels">
                 <Board 
                 deck={this.state.deck} 
                 selectedCouple={this.state.selectedCouple}

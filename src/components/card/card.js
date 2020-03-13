@@ -5,11 +5,11 @@ class Card extends React.Component{
 render(){
         return(
             <div className="card" onClick={this.props.selectCard}>
-               <FlipCard
+                <FlipCard
                isFlipped={this.props.isBeingCompared || this.props.guessed}> 
-                    <div></div>
-                    <div className="card-content">
-                        <img  className="card" src={this.props.icon} alt="fruit"></img>
+                    <div ></div>
+                    <div >
+                        <img className="card" src={this.props.icon} alt="fruit"></img>
                     </div>
                </FlipCard>
             </div>
