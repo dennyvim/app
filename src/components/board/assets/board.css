@@ -1,8 +1,12 @@
 .board {
+align-content: center;
 display: flex;
 flex-wrap: wrap;
-width: 400px;
-height: 600px;
+width: 350px;
+height: 700px;
 margin: 0 auto;
-justify-content: space-between;
+position: absolute;
+align-items: center;
+left: 55px;
+
 }

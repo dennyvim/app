@@ -4,8 +4,9 @@
     height: 175px;
     border-radius: 50%;
     background: white;
-    color: gray;
+    color:black;
     font-size: 40px;
+    border: black solid;
 }
 #level1classic{
     left: 31px;
