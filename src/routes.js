@@ -10,6 +10,7 @@ import LevelTwo from './containers/App/game/levelsClassic/levelTwo.js';
 import LevelThree from './containers/App/game/levelsClassic/levelThree.js';
 import LevelFour from './containers/App/game/levelsClassic/levelFour.js';
 import Home from './containers/App/home/home.js';
+import Victory from './components/victory/victory.js';
 
 const Router = () => {
     return(
@@ -23,6 +24,7 @@ const Router = () => {
                 <Route path="/LevelOne" component = {LevelOne}/>
                 <Route path="/LevelTwo" component = {LevelTwo}/>
                 <Route path="/LevelThree" component = {LevelThree}/>
+                <Route path="/Victory" component = {Victory}/>
             </Switch>
         </BrowserRouter>
         

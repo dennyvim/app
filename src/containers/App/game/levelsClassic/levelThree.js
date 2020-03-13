@@ -69,7 +69,9 @@ class LevelThree extends React.Component{
                     return {...card, guessed: true}                    
                 })
             }
-            checkVictory(deck);
+            if(checkVictory(deck)){
+                return this.props.history.push('/Victory')
+            };
             this.setState({
                 selectedCouple: [],
                 deck,
